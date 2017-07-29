@@ -1,4 +1,4 @@
-## Styles
+## UI Components
 
 The default SCSS for the current design iteration.
 

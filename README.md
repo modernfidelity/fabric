@@ -15,10 +15,6 @@ This is the home of Fabric, a UX/UI component library for micro app framework bu
 
 ### Installation
 
-Login to your NPM account 
-
-    yarn login
-
 Clone the repo and 'cd' into working directory, and run the following. 
 
     yarn add @modernfidelity/fabric --save
@@ -41,15 +37,13 @@ Build tools are based around gulp currently and will be wrapped up shortly via n
 
 *To run a production build please run the following :* 
 
-    gulp build:release
+    gulp build
 
 This will create a folder '/dist' with the lib compile in it.  
 
 ## The goal of Fabric
 Our goal is to build a set of high-quality UI components built with Angular and TypeScript for use within
 micro-apps and general web applications.
-
-These components will serve as an example of how to write Angular code following best practices.
 
 ### What do we mean by "high-quality"?
 * Internationalized and accessible so that all users can use them.
