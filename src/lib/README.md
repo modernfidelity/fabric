@@ -37,7 +37,7 @@ Build tools are based around gulp currently and are wrapped via npm run commands
 
 *To run a production build please run the following :*
 
-    npm run build:prod
+    npm run build:release
 
 This will create a folder '/dist' with the lib in it.
 
