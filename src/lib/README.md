@@ -10,7 +10,7 @@
 
 # Fabric
 
-This is the home of Fabric, a UX/UI component library for micro app framework built on top of Angular, Material Design and Bootstrap.
+This is the home of Fabric, a UX/UI component library for micro apps built on top of Angular, Material Design and Bootstrap.
 
 
 ### Installation
@@ -51,7 +51,7 @@ micro-apps and general web applications.
 * Behave as expected across a wide variety of use-cases without bugs.
 * Behavior is well-tested with both unit and integration tests.
 * Performance cost is minimized.
-* Code is clean and well-documented to serve as an example for Angular devs.
+
 
 ## Browser and screen reader support
 Fabric supports the most recent two versions of all major browsers:
