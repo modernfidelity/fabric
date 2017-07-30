@@ -1,1 +1,1 @@
-Core library code for other `@aatlabs/fabric` components.
+Core library code for other `@modernfidelity/fabric` components.
