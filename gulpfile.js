@@ -2,7 +2,7 @@
 
 /**
  *
- * GULP FILE
+ * GULP FILE v.0.0.1
  *
  * This file used for the creating the builds of the library.
  *
@@ -35,6 +35,12 @@ gulp.task('watch', ['build'], () => {
 
 gulp.task('copy', ['clean'], () => {
   return gulp.src('./src/lib/**').pipe(gulp.dest(DIST_FOLDER));
+});
+
+
+gulp.task('build:release', ['copy'], function() {
+  console.log("Building PRODUCTION release");
+
 });
 
 

@@ -1,4 +1,4 @@
-  
+
 
      ______   ______     ______     ______     __     ______
     /\  ___\ /\  __ \   /\  == \   /\  == \   /\ \   /\  ___\
@@ -15,14 +15,14 @@ This is the home of Fabric, a UX/UI component library for micro app framework bu
 
 ### Installation
 
-Clone the repo and 'cd' into working directory, and run the following. 
+To add to your project run :
 
-    yarn add @modernfidelity/fabric --save
+    npm install @modernfidelity/fabric --save
 
 
 ### Getting started
 
-@todo : See our starter kit to help with building your first project with Fabric
+See our starter kit to help with building your first project with Fabric
 
 ### Versions
 
@@ -31,15 +31,15 @@ Fabric uses SEMVER for its package versions.
 When adding a new a component please update the MINOR verion number.
 When updating an existing component or bugfix please update the PATCH verion number.
 
-### Tools : 
+### Tools :
 
-Build tools are based around gulp currently and will be wrapped up shortly via npm run commands.
+Build tools are based around gulp currently and are wrapped via npm run commands.
 
-*To run a production build please run the following :* 
+*To run a production build please run the following :*
 
-    gulp build
+    npm run build:prod
 
-This will create a folder '/dist' with the lib compile in it.  
+This will create a folder '/dist' with the lib in it.
 
 ## The goal of Fabric
 Our goal is to build a set of high-quality UI components built with Angular and TypeScript for use within

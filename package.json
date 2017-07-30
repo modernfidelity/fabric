@@ -9,7 +9,7 @@
     "url": "git@github.com:modernfidelity/fabric.git"
   },
   "scripts": {
-    "build": "node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js build:components",
+    "build": "node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js",
     "build:release": "node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js",
     "demo-app": "node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js serve:devapp",
     "test": "jasmine",
